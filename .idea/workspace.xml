@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84475934-0353-4a87-b714-9e6b8e08967a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/riskpile-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/riskpile-lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage.php" beforeDir="false" afterPath="$PROJECT_DIR$/usage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +38,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="/opt/lampp/htdocs/googleapi" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -69,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582179244676</updated>
       <workItem from="1582179248472" duration="6381000" />
-      <workItem from="1582263484102" duration="2112000" />
+      <workItem from="1582263484102" duration="4202000" />
     </task>
     <servers />
   </component>
