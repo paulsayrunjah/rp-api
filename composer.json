@@ -11,5 +11,10 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "6.5.2"
+    },
+    "autoload" : {
+      "psr-4": {
+        "Src\\": "src/"
+      }
     }
 }

@@ -1,18 +1,21 @@
 <?php
-
+namespace Src\Lib;
 
 use GuzzleHttp\Client;
 
 trait Connect
 {
-
+    static function baseUrl()
+    {
+      return "http://localhost/riskpile/public/api";
+    }
 
     static function postRequest($endPoint, $formParams)
     {
         $client = new Client();
         $error = null;
         try{
-            $request = $client->request('POST', $endPoint, [
+            $request = $client->request('POST', self::baseUrl().$endPoint, [
                 "headers" => [
                     "Authorization" => ""
                 ],
