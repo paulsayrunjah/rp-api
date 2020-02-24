@@ -1,20 +1,23 @@
 {
-    "name": "trailanalytics/riskpile",
-    "description": "Riskpile Api",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "paul sayrunjah",
-            "email": "pausepaule@gmail.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "6.5.2"
-    },
-    "autoload" : {
-      "psr-4": {
-        "Src\\": "src/"
-      }
+  "name": "trailanalytics/riskpile",
+  "description": "Riskpile Api",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "paul sayrunjah",
+      "email": "pausepaule@gmail.com"
     }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    },
+    "files": [
+        "src/Lib/helpers.php"
+    ]
+  }
 }

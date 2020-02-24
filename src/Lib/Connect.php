@@ -1,6 +1,7 @@
 <?php
 namespace Src\Lib;
 
+use Exception;
 use GuzzleHttp\Client;
 
 trait Connect
@@ -15,17 +16,15 @@ trait Connect
         $client = new Client();
         $error = null;
         try{
+            $formParams["api_key"] = getApiKey();
             $request = $client->request('POST', self::baseUrl().$endPoint, [
-                "headers" => [
-                    "Authorization" => ""
-                ],
                 "form_params" => $formParams
             ]);
 
             return $request->getBody()->getContents();
 
         }catch (Exception $exception) {
-            $error = $exception;
+            $error = $exception->getMessage();
         }
         return $error;
     }
@@ -35,10 +34,8 @@ trait Connect
         $client = new Client();
         $error = null;
         try{
+            $formParams["api_key"] = getApiKey();
             $request = $client->request('POST', $endPoint, [
-                "headers" => [
-                    "Authorization" => ""
-                ],
                 "query" => $params
             ]);
 

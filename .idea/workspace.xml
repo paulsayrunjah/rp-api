@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84475934-0353-4a87-b714-9e6b8e08967a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lib/RiskPile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lib/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Loan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usage.php" beforeDir="false" afterPath="$PROJECT_DIR$/usage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -66,7 +74,10 @@
       <option name="presentableId" value="Default" />
       <updated>1582179244676</updated>
       <workItem from="1582179248472" duration="6381000" />
-      <workItem from="1582263484102" duration="4202000" />
+      <workItem from="1582263484102" duration="5613000" />
+      <workItem from="1582363952609" duration="308000" />
+      <workItem from="1582365118095" duration="8000" />
+      <workItem from="1582526058801" duration="3454000" />
     </task>
     <servers />
   </component>
