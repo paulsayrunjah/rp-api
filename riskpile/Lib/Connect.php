@@ -1,5 +1,5 @@
 <?php
-namespace Src\Lib;
+namespace RiskPile\Lib;
 
 use Exception;
 use GuzzleHttp\Client;

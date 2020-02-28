@@ -11,13 +11,13 @@ class ComposerStaticInitfa3edb76205d0534b1505faa7f6a96db
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        'c56801a4921154dbda06104b90d905db' => __DIR__ . '/../..' . '/src/Lib/helpers.php',
+        '81111fe09b6f8ae4c07c74194d2d8db0' => __DIR__ . '/../..' . '/riskpile/Lib/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'R' => 
         array (
-            'Src\\' => 4,
+            'RiskPile\\' => 9,
         ),
         'P' => 
         array (
@@ -32,9 +32,9 @@ class ComposerStaticInitfa3edb76205d0534b1505faa7f6a96db
     );
 
     public static $prefixDirsPsr4 = array (
-        'Src\\' => 
+        'RiskPile\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/riskpile',
         ),
         'Psr\\Http\\Message\\' => 
         array (

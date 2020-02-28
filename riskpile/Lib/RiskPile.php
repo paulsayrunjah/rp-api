@@ -1,7 +1,6 @@
 <?php
 
-
-namespace Src\Lib;
+namespace RiskPile\Lib;
 
 
 class RiskPile

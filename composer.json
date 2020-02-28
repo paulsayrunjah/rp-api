@@ -15,10 +15,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Src\\": "src/"
+      "RiskPile\\": "riskpile/"
     },
     "files": [
-        "src/Lib/helpers.php"
+        "riskpile/Lib/helpers.php"
     ]
   }
 }

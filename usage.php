@@ -13,11 +13,12 @@ require __DIR__ . '/vendor/autoload.php';
     "name" => "BorrowerCentral"
 ]));*/
 
-\Src\Lib\RiskPile::setApiKey("212475-04baf3-b82ee9-74ef45-c3a02e");
+\RiskPile\Lib\RiskPile::setApiKey("212475-04baf3-b82ee9-74ef45-c3a02e");
 
-print_r(\Src\Model\Loan::createApplication([
+/*print_r(\Src\Model\Loan::createApplication([
     "institution_customer_id"
-]));
+]));*/
+
 
 
 

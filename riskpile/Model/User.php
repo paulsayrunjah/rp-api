@@ -2,7 +2,7 @@
 
 namespace Src\Model;
 
-use Src\Lib\Connect;
+use RiskPile\Lib\Connect;
 
 class User
 {
