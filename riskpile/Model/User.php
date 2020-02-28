@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Model;
+namespace RiskPile\Model;
 
 use RiskPile\Lib\Connect;
 
