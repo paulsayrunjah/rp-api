@@ -17,7 +17,7 @@ trait Connect
         $error = null;
         try{
             $formParams["api_key"] = getApiKey();
-            $request = $client->request('POST', self::baseUrl().$endPoint, [
+            $request = $client->request('POST', getUrl().$endPoint, [
                 "form_params" => $formParams
             ]);
 
@@ -35,7 +35,7 @@ trait Connect
         $error = null;
         try{
             $formParams["api_key"] = getApiKey();
-            $request = $client->request('POST', $endPoint, [
+            $request = $client->request('GET', getUrl().$endPoint, [
                 "query" => $params
             ]);
 
